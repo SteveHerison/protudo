@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Containerd {
+  height: calc(100% - 12rem);
+}
+
+@font-face {
+  font-family: "BarlowCondensed";
+  src: url("../design/font/Barlow_Condensed/BarlowCondensed-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BarlowCondensed";
+  src: url("../design/font/Barlow_Condensed/BarlowCondensed-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("../design/font/Barlow/Barlow-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
